@@ -1,0 +1,84 @@
+  @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-web : #121952;
+    --border-radius-6 : 6px;
+    --border-radius-10 : 10px;
+    --border-radius-30 : 30px;
+    --border-radius-50 : 50%;
+    --transition : 0.4s ease;
+    --transition : 0.4s 0.1s ease;
+    --rose-color : yellow;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    height: 9vh;
+}
+
+ul .link{
+    display: inline-block;
+}
+.link a{
+    padding: 0 12px;
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    /* transition-timing-function: ease;
+    transition-duration: 0.4s;
+    transition-delay: .1s; */
+    transition: .4s ease;
+    height: 70vh;
+}
+.home-main{
+    margin:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* place-items: center; */
+}
+.text h1 {
+    font-size: 3.1em;
+    color: #ecf0f3;
+    font-family: 'Creepster', cursive;
+
+}
+.text span{
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: bold;
+}
+.text{
+    line-height: 3em;
+    text-align:center;
+}
+.text p{
+    font-size: 1.3em;
+    color: #fff;
+}
+.image img{
+    width: 200px;
+}
+.text a{
+    background: #3f3;
+    color: #ecf0f3;
+    font-size: 1.8em;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: var(--border-radius-6);
+}
+
+
+
